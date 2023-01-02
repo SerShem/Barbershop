@@ -5,24 +5,25 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<link 
-		rel="stylesheet" 
-		href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-	<link 
-		rel="stylesheet"
-		type="text/css"
-		href=""
-	/> 
+	<title>BarberShop</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+	<link rel="stylesheet" type="text/css" href="" />
 </head>
+
 <body>
-	<include src="./html/components/header.html"></include>
-	<include src="./html/section_index/section_benefits.html"></include>
-	<include src="./html/section_index/section_services.html"></include>
-	<include src="./html/section_index/section_why_us.html"></include>
-	<include src="./html/section_index/section_barbers.html"></include>
-	<include src="./html/section_index/section_gallery.html"></include>
-	<include src="./html/components/footer.html"></include>
+	<header>
+		<include src="./html/components/header.html"></include>
+	</header>
+	<main>
+		<include src="./html/section_index/section_benefits.html"></include>
+		<include src="./html/section_index/section_services.html"></include>
+		<include src="./html/section_index/section_why_us.html"></include>
+		<include src="./html/section_index/section_barbers.html"></include>
+		<include src="./html/section_index/section_gallery.html"></include>
+	</main>
+	<footer>
+		<include src="./html/components/footer.html"></include>
+	</footer>
 	<include src="./html/menu/menu.html"></include>
 	<script src="./js/menu.js"></script>
 </body>
